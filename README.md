@@ -1,2 +1,8 @@
-# promobot
-Promobot discussion, documentation, questions and reference. 
+# Promobot 
+
+> Promobot discussion, documentation, questions and reference.  
+
+
+## Table of Contents 
+
+- [Set up the SDK](./setup/README.md) 
