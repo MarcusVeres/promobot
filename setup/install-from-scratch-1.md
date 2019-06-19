@@ -50,6 +50,17 @@ make
 make install
 ```
 
+> Also seems to work with 3.8 :: https://cmake.org/files/v3.8/cmake-3.8.2.tar.gz
+
+```
+cd ~/dependencies 
+wget https://cmake.org/files/v3.8/cmake-3.8.2.tar.gz
+cd cmake-3.8.2/
+./configure
+make 
+make install
+```
+
 
 #### Refresh bash for Cmake 
 
@@ -60,17 +71,6 @@ type cmake
 hash -r cmake 
 which cmake 
 cmake --version 
-```
-
-> Also seems to work with 3.8 :: https://cmake.org/files/v3.8/cmake-3.8.2.tar.gz
-
-```
-cd ~/dependencies 
-wget https://cmake.org/files/v3.8/cmake-3.8.2.tar.gz
-cd cmake-3.8.2/
-./configure
-make 
-make install
 ```
 
 > NOTE : I was not able to get this to work with some newer versions of cmake ( 3.13, 3.14 and 3.15 ).
