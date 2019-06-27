@@ -9,10 +9,8 @@
 
 ## Instructions 
 
-- Download the `Promobot-SDK.gzip` file from wherever 
-- Save the following script as `install.sh` to the same folder as `Promobot-SDK`
-- `chmod +x install.sh`
-- `./install.sh` 
+1. Download the `Promobot-SDK.gzip` file from wherever  
+2. Save the following script as `install.sh` to the same folder as `Promobot-SDK`  
 
 ```bash
 #!/bin/bash
@@ -42,6 +40,10 @@ sudo /bin/bash install-sdk.sh
 cd /build/examples
 /bin/bash build.sh
 ```
+
+3. `chmod +x install.sh`
+4. `./install.sh` 
+
 
 ## Using the SDK 
 
